@@ -37,6 +37,7 @@ namespace RFID.Application.UseCases.Admin.Commands
                 UserId = request.UserId,
                 DateOnly = request.DateOnly
             };
+            return RFIDUser.UserId;
         }
     }
 }
